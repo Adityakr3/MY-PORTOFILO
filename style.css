@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    width: auto;
+    height: auto;
+}
+#A{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(5, 5, 5);
+}
+#A .box1{
+    width: 35%;
+    height: 100%;
+    background-color: black;
+    z-index: 99;
+}
+#A .box1 .nav1 {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content:      center;
+    align-items:     center;
+    font-size: 24PX;
+}
+#A .box1 .name{
+    position: absolute;
+    width: 40%;
+    height:250px;
+    background-color:transparent;
+    bottom: 10%;
+    left:16%;
+    color: rgb(255, 255, 255);
+    z-index: 9;
+}
+.dots img{
+    width: 40%;
+    height: 100%;
+    top: 0%;
+    position: absolute;
+    left:-7%;
+}
+.name h2{
+   font-size: 32px;
+   font-weight: 400;
+   padding-left: 13%;
+}
+.name h3{
+    font-size: 46px;
+    padding-left: 12%;
+}
+.name2{
+    width: 296px;
+    height: 46px;
+    background-color: rgba(255, 255, 0, 0.956);
+    margin-top: 12px;
+    margin-left: 12%;
+    color: rgba(0, 0, 0, 0.94);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.box2{
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.box2 img{
+
+    width: 100%;
+    height: 90.9%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 8%;
+}
+.overlay{
+    width: 65%;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 8;
+    background-color: rgba(0, 0, 0, 0.734);
+}
+.nav2{
+    width: 65%;
+    height: 9.6%;
+    background-color: rgba(132, 132, 132, 0.811);
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 0.909);
+    z-index: 99;
+}
+.nav2 span{
+    border-bottom: 3PX SOLID rgba(255, 255, 0, 0.768);
+}
+#B{ 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(180, 177, 177, 0.572);
+}
+.Box{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    top:115%;
+    left: 9%;
+    background-color: black;
+}
+.Box1{
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    top:123%;
+    left: 14%;
+    background-color: rgb(154, 152, 152);
+}
+.Box1 img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+#C{
+    width: 100%;
+    height: 200%;
+    background-color: rgb(38, 69, 25);
+}
