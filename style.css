@@ -118,24 +118,46 @@ html,body{
     border-bottom: 3PX SOLID rgba(255, 255, 0, 0.768);
 }
 #B{ 
+    position: relative;
     width: 100%;
     height: 100%;
-    background-color: rgba(180, 177, 177, 0.572);
+    background-color: rgba(214, 214, 214, 0.638);
 }
 .Box{
     position: absolute;
     width: 30%;
     height: 60%;
-    top:115%;
+    top:15%;
     left: 9%;
     background-color: black;
+}
+.Box .circle{
+    position: absolute;
+    right: 6%;
+    top: 3%;
+    width: 31px;
+    height: 31px;
+    border-radius:50%;
+    z-index: 1;
+    border: 5px solid yellow;
+
+}
+.Box .dot{
+    position: absolute;
+    right: 15%;
+    top: 5%;
+    width: 12px;
+    height: 12px;
+    border-radius:50%;
+    z-index: 1;
+    background-color: yellow;
 }
 .Box1{
     position: absolute;
     width: 30%;
     height: 60%;
-    top:123%;
-    left: 14%;
+    top:19%;
+    left: 12%;
     background-color: rgb(154, 152, 152);
 }
 .Box1 img{
@@ -144,6 +166,43 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#B > .Box2{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    top:22%;
+    right:4%;
+    background-color: transparent;
+}
+#B >.Box2 > .bnav{
+    width: 286px;
+    height:96px;
+    background-color :transparent;
+    z-index: 9;
+}
+.bnav  > p {
+    font-size: 24px;
+    margin-left: 30%;
+    font-weight: 700;
+}
+.bnav > h1{
+    position: relative;
+    font-size: 50px;
+    margin-left: 15%;
+    z-index: 99;
+}
+.bnav .line{
+    position: relative;
+    width: 164px;
+    height: 22px;
+    background-color: yellow;
+    left: 13%;
+    top: -29%;
+}
+.Box2 h3{
+    padding-left: 7%;
+    font-size: 14px;
 }
 
 #C{
@@ -232,4 +291,16 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+button{
+    width:22vmin;
+    height: 5vmin;
+    border-radius: 50px;
+    position: relative;
+    bottom: -15%;
+    left: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    transform: translateX(-50%);
 }
